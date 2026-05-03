@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>package.manonox.zenith</name>
+    </assembly>
+    <members>
+        <member name="M:Zenith.Controller.State.Process">
+            <summary>
+            Handle extra global logic.
+            Called right before `Move` regardless of we are the CurrentState or not.
+            </summary>
+        </member>
+        <member name="M:Zenith.Controller.State.Move">
+            <summary>
+            Main function that should modify Controller.Position and Controller.Velocity.
+            </summary>
+        </member>
+        <member name="M:Zenith.Controller.State.TryEnter">
+            <summary>
+            Test for transitions.
+            Called right before `Move` regardless of we are the CurrentState or not.
+            </summary>
+        </member>
+    </members>
+</doc>

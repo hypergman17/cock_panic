@@ -1,0 +1,86 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc30:version{8c2d7a91-9c42-4bf0-883a-5a3b1762d4f1} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "human.body.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lusywong_skin_mat.vmat"
+							},
+							{
+								from = "human.braid01.002.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lucywong_hari_mat.vmat"
+							},
+							{
+								from = "human.eyebrow004.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lucywong_eyebrow_mat.vmat"
+							},
+							{
+								from = "human.eyelashes02.001.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lucywong_eyelashes_mat.vmat"
+							},
+							{
+								from = "human.female_elegantsuit01.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lucywant_clothing_mat.vmat"
+							},
+							{
+								from = "human.shoes03.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lucywong_shoes_mat.vmat"
+							},
+							{
+								from = "human.teeth_base.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/slucywong_teeth_mat.vmat"
+							},
+							{
+								from = "human.tongue01.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lucywong_tung_mat.vmat"
+							},
+							{
+								from = "makeskinmaterial.vmat"
+								to = "actors/lucywong/lucy-wong.fbm/lucywong_eye_mat.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "Actors/LucyWong/Lucy-wong.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
