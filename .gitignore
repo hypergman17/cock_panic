@@ -27,3 +27,7 @@ code/Properties/*
 
 # Exported / standalone games
 Exports/
+Libraries/redsnail.watertool/Assets/Shaders/advancedwater.shader_c
+Libraries/redsnail.watertool/Assets/Shaders/pp_wobble.shader_c
+Libraries/redsnail.watertool/Assets/Shaders/water_clipmap_cs.shader_c
+Libraries/redsnail.watertool/Assets/Shaders/pp_simplefog.shader_c
