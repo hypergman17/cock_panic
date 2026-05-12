@@ -92,6 +92,47 @@
 				]
 				default_root_bone_name = ""
 			},
+			{
+				_class = "HitboxSetList"
+				note = "Type note..."
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "Attack"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "foot_0_L_001"
+								surface_property = ""
+								translation_only = false
+								tags = ""
+								hitbox_mins = [ -1.0, -1.0, -1.0 ]
+								hitbox_maxs = [ 1.0, 1.0, 1.0 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "foot_0_R_001"
+								surface_property = ""
+								translation_only = false
+								tags = ""
+								hitbox_mins = [ -1.0, -1.0, -1.0 ]
+								hitbox_maxs = [ 1.0, 1.0, 1.0 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "head_0"
+								surface_property = ""
+								translation_only = false
+								tags = ""
+								hitbox_mins = [ -1.0, -1.0, -1.0 ]
+								hitbox_maxs = [ 1.0, 1.0, 1.0 ]
+							},
+						]
+					},
+				]
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
