@@ -203,7 +203,40 @@
           "__enabled": true,
           "Flags": 0,
           "Binder": {
-            "GameObjects": [],
+            "GameObjects": [
+              {
+                "Track": "dad32cd1-8572-46de-af5f-7805a591a72a",
+                "Reference": "7813c51d-6c5d-4a9c-b2ae-0d81b1eb5d7a"
+              },
+              {
+                "Track": "6a80d852-2691-4b97-bbf3-de071b0d7bba",
+                "Reference": "0acd256a-6bb8-4c0b-865e-501300aefb4d"
+              },
+              {
+                "Track": "eb7d1405-c203-4e5d-bc39-d2b31ed69fab",
+                "Reference": "ac9d5458-f00d-477e-819d-50720444e9a6"
+              },
+              {
+                "Track": "d58801bf-1f69-4c21-86dd-e65e89348a55",
+                "Reference": "e615769d-ed09-4bd1-873d-461084a2cca4"
+              },
+              {
+                "Track": "dad51332-e8ad-4303-85fd-954c49f0c10a",
+                "Reference": "1d3f8277-414a-49f7-b4f3-4d2fe1737915"
+              },
+              {
+                "Track": "49f13111-6987-4ce8-bd11-1469ff0c00dd",
+                "Reference": "11ded0fc-e6df-4d7e-832f-976f33e12518"
+              },
+              {
+                "Track": "27d2272a-8994-419d-9d44-4e9f0385c5ba",
+                "Reference": "6b26e5b9-ea04-48ba-af14-4f592245dd61"
+              },
+              {
+                "Track": "934f999e-dc41-41d1-99a1-95024de1ae83",
+                "Reference": "d4a96081-34ae-4c1f-8940-6a8e8b7cdcf5"
+              }
+            ],
             "Components": []
           },
           "CreateTargets": true,
@@ -217,6 +250,164 @@
           "OnComponentUpdate": null,
           "PositionSeconds": 0,
           "Resource": {
+            "Compiled": {
+              "Tracks": [
+                {
+                  "Kind": "Reference",
+                  "Name": "gient rooster",
+                  "Type": "Sandbox.GameObject",
+                  "Id": "dad32cd1-8572-46de-af5f-7805a591a72a",
+                  "Metadata": {
+                    "ReferenceId": "7813c51d-6c5d-4a9c-b2ae-0d81b1eb5d7a"
+                  },
+                  "Children": [
+                    {
+                      "Kind": "Reference",
+                      "Name": "root",
+                      "Type": "Sandbox.GameObject",
+                      "Id": "6a80d852-2691-4b97-bbf3-de071b0d7bba",
+                      "Metadata": {
+                        "ReferenceId": "0acd256a-6bb8-4c0b-865e-501300aefb4d"
+                      },
+                      "Children": [
+                        {
+                          "Kind": "Reference",
+                          "Name": "spine_0",
+                          "Type": "Sandbox.GameObject",
+                          "Id": "eb7d1405-c203-4e5d-bc39-d2b31ed69fab",
+                          "Metadata": {
+                            "ReferenceId": "ac9d5458-f00d-477e-819d-50720444e9a6"
+                          },
+                          "Children": [
+                            {
+                              "Kind": "Reference",
+                              "Name": "root_002",
+                              "Type": "Sandbox.GameObject",
+                              "Id": "d58801bf-1f69-4c21-86dd-e65e89348a55",
+                              "Metadata": {
+                                "ReferenceId": "e615769d-ed09-4bd1-873d-461084a2cca4"
+                              },
+                              "Children": [
+                                {
+                                  "Kind": "Reference",
+                                  "Name": "spine_1",
+                                  "Type": "Sandbox.GameObject",
+                                  "Id": "dad51332-e8ad-4303-85fd-954c49f0c10a",
+                                  "Metadata": {
+                                    "ReferenceId": "1d3f8277-414a-49f7-b4f3-4d2fe1737915"
+                                  },
+                                  "Children": [
+                                    {
+                                      "Kind": "Reference",
+                                      "Name": "spine_2",
+                                      "Type": "Sandbox.GameObject",
+                                      "Id": "49f13111-6987-4ce8-bd11-1469ff0c00dd",
+                                      "Metadata": {
+                                        "ReferenceId": "11ded0fc-e6df-4d7e-832f-976f33e12518"
+                                      },
+                                      "Children": [
+                                        {
+                                          "Kind": "Reference",
+                                          "Name": "neck_0",
+                                          "Type": "Sandbox.GameObject",
+                                          "Id": "27d2272a-8994-419d-9d44-4e9f0385c5ba",
+                                          "Metadata": {
+                                            "ReferenceId": "6b26e5b9-ea04-48ba-af14-4f592245dd61"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "EditorData": {
+              "SampleRate": 30,
+              "Duration": 0,
+              "ExportConfig": null,
+              "Tracks": {
+                "d58801bf-1f69-4c21-86dd-e65e89348a55": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "e615769d-ed09-4bd1-873d-461084a2cca4"
+                  },
+                  "Name": "root_002",
+                  "TargetType": "Sandbox.GameObject",
+                  "ParentId": "eb7d1405-c203-4e5d-bc39-d2b31ed69fab"
+                },
+                "6a80d852-2691-4b97-bbf3-de071b0d7bba": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "0acd256a-6bb8-4c0b-865e-501300aefb4d"
+                  },
+                  "Name": "root",
+                  "TargetType": "Sandbox.GameObject",
+                  "ParentId": "dad32cd1-8572-46de-af5f-7805a591a72a"
+                },
+                "49f13111-6987-4ce8-bd11-1469ff0c00dd": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "11ded0fc-e6df-4d7e-832f-976f33e12518"
+                  },
+                  "Name": "spine_2",
+                  "TargetType": "Sandbox.GameObject",
+                  "ParentId": "dad51332-e8ad-4303-85fd-954c49f0c10a"
+                },
+                "dad32cd1-8572-46de-af5f-7805a591a72a": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "7813c51d-6c5d-4a9c-b2ae-0d81b1eb5d7a"
+                  },
+                  "Name": "gient rooster",
+                  "TargetType": "Sandbox.GameObject"
+                },
+                "eb7d1405-c203-4e5d-bc39-d2b31ed69fab": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "ac9d5458-f00d-477e-819d-50720444e9a6"
+                  },
+                  "Name": "spine_0",
+                  "TargetType": "Sandbox.GameObject",
+                  "ParentId": "6a80d852-2691-4b97-bbf3-de071b0d7bba"
+                },
+                "dad51332-e8ad-4303-85fd-954c49f0c10a": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "1d3f8277-414a-49f7-b4f3-4d2fe1737915"
+                  },
+                  "Name": "spine_1",
+                  "TargetType": "Sandbox.GameObject",
+                  "ParentId": "d58801bf-1f69-4c21-86dd-e65e89348a55"
+                },
+                "27d2272a-8994-419d-9d44-4e9f0385c5ba": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "6b26e5b9-ea04-48ba-af14-4f592245dd61"
+                  },
+                  "Name": "neck_0",
+                  "TargetType": "Sandbox.GameObject",
+                  "ParentId": "49f13111-6987-4ce8-bd11-1469ff0c00dd"
+                },
+                "934f999e-dc41-41d1-99a1-95024de1ae83": {
+                  "$type": "Reference",
+                  "Metadata": {
+                    "ReferenceId": "d4a96081-34ae-4c1f-8940-6a8e8b7cdcf5"
+                  },
+                  "Name": "head_0",
+                  "TargetType": "Sandbox.GameObject",
+                  "ParentId": "27d2272a-8994-419d-9d44-4e9f0385c5ba"
+                }
+              },
+              "References": []
+            },
             "__references": []
           },
           "TimeScale": 1
@@ -311,10 +502,10 @@
                             {
                               "__guid": "6b26e5b9-ea04-48ba-af14-4f592245dd61",
                               "__version": 2,
-                              "Flags": 4,
+                              "Flags": 1028,
                               "Name": "neck_0",
-                              "Position": "0,0,0",
-                              "Rotation": "0,0,0,1",
+                              "Position": "1.69277191E-05,15.8672571,0.846834898",
+                              "Rotation": "0.0520640984,-3.56787559E-08,-1.66899298E-07,0.998643756",
                               "Scale": "1,1,1",
                               "Tags": "",
                               "Enabled": true,
@@ -328,10 +519,10 @@
                                 {
                                   "__guid": "d4a96081-34ae-4c1f-8940-6a8e8b7cdcf5",
                                   "__version": 2,
-                                  "Flags": 4,
+                                  "Flags": 1028,
                                   "Name": "head_0",
-                                  "Position": "0,0,0",
-                                  "Rotation": "0,0,0,1",
+                                  "Position": "3.38554382E-05,8.93502712,0.144791603",
+                                  "Rotation": "0.566095829,-8.53702176E-08,7.64137098E-07,0.824339449",
                                   "Scale": "1,1,1",
                                   "Tags": "",
                                   "Enabled": true,
@@ -910,18 +1101,18 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "f9396434-8f17-4d6a-93ce-ee1fbc5cde34"
-        }
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
       },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
         }
       },
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "f9396434-8f17-4d6a-93ce-ee1fbc5cde34"
+        }
       }
     }
   },
