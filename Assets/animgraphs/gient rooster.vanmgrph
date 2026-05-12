@@ -42,7 +42,7 @@
 				value = 
 				{
 					_class = "CJiggleBoneAnimNode"
-					m_sName = "Unnamed"
+					m_sName = "Feathers"
 					m_vecPosition = [ -704.0, -176.0 ]
 					m_nNodeID = 
 					{
@@ -63,13 +63,58 @@
 					m_items = 
 					[
 						{
-							m_boneName = ""
+							m_boneName = "feather_3_R"
 							m_flSpringStrength = 10.0
 							m_flSimRateFPS = 90.0
 							m_flDamping = 0.01
 							m_eSimSpace = "SimSpace_World"
 							m_vBoundsMaxLS = [ 10.0, 10.0, 10.0 ]
 							m_vBoundsMinLS = [ -10.0, -10.0, -10.0 ]
+						},
+						{
+							m_boneName = "feather_2_R"
+							m_flSpringStrength = 10.0
+							m_flSimRateFPS = 90.0
+							m_flDamping = 0.01
+							m_eSimSpace = "SimSpace_World"
+							m_vBoundsMaxLS = [ 10.0, 10.0, 10.0 ]
+							m_vBoundsMinLS = [ -10.0, -10.0, -10.0 ]
+						},
+						{
+							m_boneName = "feather_1_R_005"
+							m_flSpringStrength = 10.0
+							m_flSimRateFPS = 90.0
+							m_flDamping = 0.01
+							m_eSimSpace = "SimSpace_World"
+							m_vBoundsMaxLS = [ 10.0, 10.0, 10.0 ]
+							m_vBoundsMinLS = [ -10.0, -10.0, -10.0 ]
+						},
+						{
+							m_boneName = "feather_3_L"
+							m_flSpringStrength = 12.0
+							m_flSimRateFPS = 0.031
+							m_flDamping = 0.031
+							m_eSimSpace = "SimSpace_World"
+							m_vBoundsMaxLS = [ 20.0, 20.0, 20.0 ]
+							m_vBoundsMinLS = [ -20.0, -20.0, -20.0 ]
+						},
+						{
+							m_boneName = "feather_2_L"
+							m_flSpringStrength = 12.0
+							m_flSimRateFPS = 0.031
+							m_flDamping = 0.031
+							m_eSimSpace = "SimSpace_World"
+							m_vBoundsMaxLS = [ 20.0, 20.0, 20.0 ]
+							m_vBoundsMinLS = [ -20.0, -20.0, -20.0 ]
+						},
+						{
+							m_boneName = "feather_1_L_005"
+							m_flSpringStrength = 12.0
+							m_flSimRateFPS = 0.031
+							m_flDamping = 0.031
+							m_eSimSpace = "SimSpace_World"
+							m_vBoundsMaxLS = [ 20.0, 20.0, 20.0 ]
+							m_vBoundsMinLS = [ -20.0, -20.0, -20.0 ]
 						},
 					]
 				}
@@ -137,12 +182,15 @@
 		_class = "CActivityValueList"
 		m_activities = [  ]
 	}
-	m_previewModels = [  ]
+	m_previewModels = 
+	[
+		"actors/gient rooster/gient rooster.vmdl",
+	]
 	m_boneMergeModels = [  ]
 	m_cameraSettings = 
 	{
 		m_flFov = 60.0
-		m_sLockBoneName = ""
+		m_sLockBoneName = "root"
 		m_bLockCamera = false
 		m_bViewModelCamera = false
 	}
